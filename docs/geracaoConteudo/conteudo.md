@@ -1,54 +1,96 @@
 # Geração de conteúdo
 
-"Para produzir conteúdo digital acessível, a primeira etapa é compreender que tudo o que comunicamos impacta as pessoas; por isso, é fundamental começar pela forma como abordamos nosso público e criar a cultura e o hábito de acessibilidade digital em nossas equipes". Nesse sentido, nesta seção se apresentam boas práticas em formato de checklist para garantir acessibilidade na geração de conteúdo.
+Para produzir conteúdo digital acessível, é essencial compreender que toda comunicação tem impacto sobre as pessoas. Por isso, é importante começar pela forma como abordamos nosso público, promovendo uma cultura de acessibilidade digital e incorporando esse hábito nas equipes.  
+
+Nesta seção, apresentam-se boas práticas em formato de checklist para garantir acessibilidade na geração de conteúdo.
+
+---
 
 ## Termos
-- [ ] Sempre utilize o termo "pessoas com deficiência" (PCD) e depois complemente: visual, física, intelectual, múltipla, pessoa  surda, pessoa cega, usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente.  
+
+- [ ] Utilizar sempre o termo **"pessoas com deficiência" (PCD)** e, quando necessário, complementar: visual, física, intelectual, múltipla, pessoa surda, pessoa cega, pessoa usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, pessoa com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente.  
+- [ ] Usar linguagem inclusiva, evitando expressões capacitistas e termos que reforcem estereótipos.  
+
+---
 
 ## Textos
-- [ ] Usar textos descomplicados e objetivos. 
-- [ ] Usar de palavras conhecidas. 
-- [ ] Evitar figuras de linguagem. e frases com "senso de ugência" 
-- [ ] Usar pontuação adequada. 
-- [ ] Evitar frases extensas (ideal é ter de 15 a 20 palavras). 
-- [ ] Usar preferencialmente a ordem direta nas orações. 
+
+- [ ] Usar textos simples, objetivos e de fácil compreensão.  
+- [ ] Empregar palavras conhecidas e acessíveis ao público geral.  
+- [ ] Evitar figuras de linguagem e frases com **senso de urgência**.  
+- [ ] Usar pontuação adequada.  
+- [ ] Evitar frases longas (o ideal é entre 15 e 20 palavras).  
+- [ ] Preferir a ordem direta nas orações.  
+
+---
 
 ## Descrição de imagens
-- [ ] Identificar o tipo de imagem e personagem (foto, ilustração, mapa, gráfico... e " o que / quem"). 
-- [ ] Localizar (onde). 
-- [ ] Descrever a ação (o que faz, como faz). 
-- [ ] Referenciar. 
+
+- [ ] Identificar o tipo de imagem e o personagem (foto, ilustração, mapa, gráfico etc.) e o que ou quem ela representa.  
+- [ ] Indicar o local (onde ocorre).  
+- [ ] Descrever a ação (o que faz, como faz).  
+- [ ] Adicionar referência, quando aplicável.  
+
+---
 
 ## Descrição de imagens complexas
-- [ ] Posicionar gráfico, quadrinhos, quadros e outras imagens compexas em um local separado. 
-- [ ] Descrição sucinta no texto alternativo. 
+
+- [ ] Posicionar gráficos, quadrinhos, quadros e outras imagens complexas em local separado no conteúdo.  
+- [ ] Fornecer uma descrição curta e objetiva no texto alternativo (*alt text*).  
+- [ ] Incluir uma descrição detalhada em texto complementar, se necessário.  
+
+---
 
 ## Ícones
-- [ ] Adicionar iconografia. 
-- [ ] Adicionar ícone e texto. 
-- [ ] Adicionar texto alternativo para ícones clicáveis. 
-- [ ] Descrever no texto alternativo, quando necessário usá-lo, a ação da pessoa usuária e para onde será direcionada. 
+
+- [ ] Adicionar iconografia com propósito semântico e visual claro.  
+- [ ] Incluir ícone acompanhado de texto.  
+- [ ] Adicionar texto alternativo para ícones clicáveis.  
+- [ ] No texto alternativo, descrever a ação esperada da pessoa usuária e o destino do link ou botão.  
+
+---
 
 ## Mídias de vídeo
-- [ ] Adicionar descritivo curto para vídeos. 
-- [ ] Optar pro legendas: Open Caption e Closed Caption para vídeos. 
+
+- [ ] Adicionar uma breve descrição textual (resumo) para vídeos.  
+- [ ] Optar por legendas **Open Caption** e **Closed Caption**.  
+- [ ] Garantir que as legendas sejam sincronizadas e incluam sons relevantes (música, ruídos, etc.).  
+
+---
 
 ## Autodescrição
-- [ ] Adionar autodescrição no roteiro dos vídeos 
 
-# Podcasts
-- [ ] Transcrever o conteúdo do episódio. 
-- [ ] Incluir além da partes faladas, como sons de fundos, efeitos sonoros, quem está falando etc. 
-- [ ] Inserir um avatar na página falada para a interpretção do texto transcrito para Libras. 
-- [ ] Considerar também formato de vídeo.
+- [ ] Adicionar autodescrição no roteiro dos vídeos, descrevendo características visuais relevantes das pessoas e do ambiente.  
 
-## Hashtags e Emojis
-- [ ] Em hashtags, utilize a primeira letra de cada palavra em maiúsculas para que leitores possam identificar palavras corretamente. 
-- [ ] Não abusar de emojis, pois nem sempre sua descrição é suficiente para um bom entendimento. 
+---
+
+## Podcasts
+
+- [ ] Transcrever o conteúdo completo do episódio.  
+- [ ] Incluir, além das falas, sons de fundo, efeitos sonoros e identificação de quem está falando.  
+- [ ] Inserir um avatar na página para representar a interpretação em Libras do texto transcrito.  
+- [ ] Considerar também oferecer o episódio em formato de vídeo.  
+
+---
+
+## Hashtags e emojis
+
+- [ ] Em hashtags, usar a primeira letra de cada palavra em maiúscula (*CamelCase*), para que leitores de tela identifiquem corretamente as palavras.  
+- [ ] Evitar o uso excessivo de emojis, pois suas descrições nem sempre garantem bom entendimento.  
+
+---
 
 ## Hiperlinks
-- [ ] Descrição de links e botões devem ser compreensíveis de maneira maneira isolada. 
+
+- [ ] Criar descrições de links e botões compreensíveis de forma isolada, sem depender do contexto.  
+- [ ] Evitar textos genéricos como “clique aqui” ou “saiba mais”.  
+
+---
 
 ## Bibliografia
 
-> <a id="RP1" href="#TEC1"></a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
+DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R.  
+**Guia de Boas Práticas para Acessibilidade Digital.**  
+Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023.  
+Disponível em: [Guia de Boas Práticas para Acessibilidade Digital (gov.br)](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf).  
+Acesso em: 9 mai. 2024.

@@ -1,18 +1,18 @@
-# VerificaAAA
+# CheckAAA
 
 ## Descrição
 
-O VerificaAAA é um projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Nesse sentido, seu objetivo final é fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos.
+O CheckAAA é um projeto desenvolvido no contexto da disciplina Interação Humano-Computador (IHC), ministrada pela professora Rejane Maria da Costa Figueiredo na Universidade de Brasília (UnB). O projeto tem como propósito principal disponibilizar um checklist prático de acessibilidade voltado a diferentes tipos de projetos, especialmente os relacionados ao desenvolvimento de software abrangendo áreas como desenvolvimento web, design de interfaces, produção de conteúdo digital e gestão de projetos. Dessa forma, o CheckAAA busca promover a inclusão e estimular a adoção de boas práticas de acessibilidade desde as etapas iniciais do processo de desenvolvimento.
 
 ## Equipe
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/vitorfleonardo.png" width="100px;" alt=""/><br /><sub><b>Vitor Feijó</b></sub></a><br />
-    <td align="center"><a href="https://github.com/CADU110"><img style="border-radius: 50%;" src="https://github.com/CADU110.png" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Angelicahaas"><img style="border-radius: 50%;" src="https://github.com/Angelicahaas.png" width="100px;" alt=""/><br /><sub><b>Harleny Angéllica</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Erick-ems "><img style="border-radius: 50%;" src="https://github.com/Erick-ems.png" width="100px;" alt=""/><br /><sub><b>Erick Santos</b></sub></a><br />
-    <td align="center"><a href="https://github.com/maykonjuso "><img style="border-radius: 50%;" src="https://github.com/maykonjuso.png" width="100px;" alt=""/><br /><sub><b>Maykon Júnio</b></sub></a><br />
+    <td align="center"><a href="https://github.com/dcasseb"><img style="border-radius: 50%;" src="https://github.com/dcasseb.png" width="100px;" alt=""/><br /><sub><b>Davi Araújo</b></sub></a><br />
+    <td align="center"><a href="https://github.com/fdiogo1"><img style="border-radius: 50%;" src="https://github.com/fdiogo1.png" width="100px;" alt=""/><br /><sub><b>Diogo Ferreira</b></sub></a><br />
+    <td align="center"><a href="https://github.com/Estevao468"><img style="border-radius: 50%;" src="https://github.com/Estevao468.png" width="100px;" alt=""/><br /><sub><b>Estevão Magalhães</b></sub></a><br />   
+    <td align="center"><a href="https://github.com/Joaolramos"><img style="border-radius: 50%;" src="https://github.com/Joaolramos.png" width="100px;" alt=""/><br /><sub><b>João Ramos</b></sub></a><br />   
+    <td align="center"><a href="https://github.com/rsribeiro1"><img style="border-radius: 50%;" src="https://github.com/rsribeiro1.png" width="100px;" alt=""/><br /><sub><b>Renan Ribeiro</b></sub></a><br />
   </tr>
 </table>
 

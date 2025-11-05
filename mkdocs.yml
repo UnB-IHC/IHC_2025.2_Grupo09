@@ -1,13 +1,13 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
+repo_url: https://github.com/UnB-IHC/IHC_2025.2_Grupo09
+repo_name: CheckAAA
 
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
+site_url: https://github.com/UnB-IHC/IHC_2025.2_Grupo09
+site_name: CheckAAA
 
 use_directory_urls: False
 
 nav:
-  - Início - VerificAAA: 'index.md'
+  - Início: 'index.md'
 
   - Desenvolvimento Web:
     - Desenvolvimento: 'devWeb/non_text_content.md'
@@ -25,11 +25,31 @@ nav:
     - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
 
 theme:
-  name: readthedocs
+  name: material
   locale: pt_BR
   titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  logo: imagens/logo-checkaaa.png
+  favicon: imagens/logo-checkaaa.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    # Modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: yellow
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    # Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: gray
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
 
 markdown_extensions:
   - def_list
