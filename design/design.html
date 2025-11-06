@@ -1084,25 +1084,29 @@
 <ul>
 <li><strong>Por quê?</strong> <code>display: none</code> ou <code>visibility: hidden</code> ocultam o conteúdo de <em>todos</em>, incluindo leitores de tela. Às vezes, queremos ocultar algo <em>apenas</em> visualmente, mas mantê-lo para tecnologias assistivas (ex: o rótulo "Buscar" em um botão que só tem o ícone de uma lupa).</li>
 <li><strong>Como fazer:</strong> Para ocultar visualmente, mas manter para leitores de tela, use uma classe CSS "sr-only" (screen-reader only) ou "visually-hidden".</li>
-<li><strong>Exemplo de Código:</strong>
-    <code>css
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border-width: 0;
-    }</code></li>
-<li><strong>Exemplo de HTML:</strong>
-    <code>html
-    &lt;button&gt;
-      &lt;span class="sr-only"&gt;Buscar&lt;/span&gt;
-      &lt;svg aria-hidden="true" ...&gt;...&lt;/svg&gt;
-    &lt;/button&gt;</code></li>
+<li>
+<p><strong>Exemplo de Código:</strong></p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">.</span><span class="nc">sr-only</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="k">position</span><span class="p">:</span><span class="w"> </span><span class="kc">absolute</span><span class="p">;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="p">;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="p">;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">  </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">-1</span><span class="kt">px</span><span class="p">;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="k">overflow</span><span class="p">:</span><span class="w"> </span><span class="kc">hidden</span><span class="p">;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">  </span><span class="k">clip</span><span class="p">:</span><span class="w"> </span><span class="nb">rect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">  </span><span class="k">white-space</span><span class="p">:</span><span class="w"> </span><span class="kc">nowrap</span><span class="p">;</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">  </span><span class="k">border-width</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="p">}</span>
+</span></code></pre></div>
+</li>
+<li>
+<p><strong>Exemplo de HTML:</strong>
+    <div class="language-html highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">&lt;</span><span class="nt">button</span><span class="p">&gt;</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;sr-only&quot;</span><span class="p">&gt;</span>Buscar<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  <span class="p">&lt;</span><span class="nt">svg</span> <span class="na">aria-hidden</span><span class="o">=</span><span class="s">&quot;true&quot;</span> <span class="err">...</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">svg</span><span class="p">&gt;</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+</span></code></pre></div></p>
+</li>
 </ul>
 </li>
 </ul>
@@ -1116,23 +1120,40 @@
 </ul>
 <h4 id="como-testar-o-passo-a-passo">Como Testar (O Passo a Passo)</h4>
 <p>Não basta "achar" que o contraste está bom; ele deve ser medido.</p>
-<p><strong>Ferramenta 1: Colour Contrast Analyser (CCA)</strong>
-* <strong>O que é:</strong> Um aplicativo gratuito (Windows/Mac) da TPGi que permite usar um conta-gotas para medir o contraste entre quaisquer dois pontos na tela.
-* <strong>Passo a Passo Básico:</strong>
-    1.  Baixe e instale o aplicativo a partir do site oficial da TPGi.
-    2.  Abra o CCA e o seu site ou protótipo (Figma, Sketch, etc.).
-    3.  Na seção "Foreground colour", clique no ícone de conta-gotas e selecione a cor do seu texto, ícone ou borda.
-    4.  Na seção "Background colour", clique no ícone de conta-gotas e selecione a cor de fundo imediatamente adjacente.
-    5.  O aplicativo mostrará instantaneamente os resultados. Em "WCAG 2.1 results" (que cobre a WCAG 2.2 para contraste), verifique se há um "Pass" (Passou) nos níveis "AA" para texto normal e componentes de UI.</p>
-<p><strong>Ferramenta 2: Lighthouse (No Google Chrome DevTools)</strong>
-* <strong>O que é:</strong> Uma ferramenta de auditoria completa embutida no navegador Chrome para avaliar páginas da web.
-* <strong>Passo a Passo Básico:</strong>
-    1.  Abra seu site no Google Chrome.
-    2.  Pressione <code>F12</code> (ou <code>Cmd+Opt+I</code> no Mac) para abrir o "Painel do Desenvolvedor" (DevTools).
-    3.  Encontre e clique na aba "Lighthouse".
-    4.  Na seção "Categories", marque <strong>apenas</strong> "Accessibility". Em "Mode", selecione "Navigation". Em "Device", selecione "Desktop".
-    5.  Clique no botão "Analyze page load".
-    6.  O Lighthouse gerará um relatório. Role para baixo até a seção "Contrast" e expanda os itens que falharam. Ele mostrará exatamente quais elementos do seu DOM não atingem o <em>ratio</em> de contraste mínimo.</p>
+<p><strong>Ferramenta 1: Colour Contrast Analyser (CCA)</strong></p>
+<ul>
+<li>
+<p><strong>O que é:</strong> Um aplicativo gratuito (Windows/Mac) da TPGi que permite usar um conta-gotas para medir o contraste entre quaisquer dois pontos na tela.</p>
+</li>
+<li>
+<p><strong>Passo a Passo Básico:</strong></p>
+<ol>
+<li>Baixe e instale o aplicativo a partir do site oficial da TPGi.</li>
+<li>Abra o CCA e o seu site ou protótipo (Figma, Sketch, etc.).</li>
+<li>Na seção "Foreground colour", clique no ícone de conta-gotas e selecione a cor do seu texto, ícone ou borda.</li>
+<li>Na seção "Background colour", clique no ícone de conta-gotas e selecione a cor de fundo imediatamente adjacente.</li>
+<li>O aplicativo mostrará instantaneamente os resultados. Em "WCAG 2.1 results" (que cobre a WCAG 2.2 para contraste), verifique se há um "Pass" (Passou) nos níveis "AA" para texto normal e componentes de UI.</li>
+</ol>
+</li>
+</ul>
+<hr />
+<p><strong>Ferramenta 2: Lighthouse (No Google Chrome DevTools)</strong></p>
+<ul>
+<li>
+<p><strong>O que é:</strong> Uma ferramenta de auditoria completa embutida no navegador Chrome para avaliar páginas da web.</p>
+</li>
+<li>
+<p><strong>Passo a Passo Básico:</strong></p>
+<ol>
+<li>Abra seu site no Google Chrome.</li>
+<li>Pressione <code>F12</code> (ou <code>Cmd+Opt+I</code> no Mac) para abrir o "Painel do Desenvolvedor" (DevTools).</li>
+<li>Encontre e clique na aba "Lighthouse".</li>
+<li>Na seção "Categories", marque <strong>apenas</strong> "Accessibility". Em "Mode", selecione "Navigation". Em "Device", selecione "Desktop".</li>
+<li>Clique no botão "Analyze page load".</li>
+<li>O Lighthouse gerará um relatório. Role para baixo até a seção "Contrast" e expanda os itens que falharam. Ele mostrará exatamente quais elementos do seu DOM não atingem o <em>ratio</em> de contraste mínimo.</li>
+</ol>
+</li>
+</ul>
 <h3 id="4-animacao-e-movimento">4. Animação e Movimento</h3>
 <ul class="task-list">
 <li class="task-list-item">
@@ -1157,21 +1178,19 @@
 <li><strong>Por quê?</strong> Pessoas com distúrbios vestibulares podem sentir náusea, tontura ou vertigem com animações (especialmente <em>parallax</em>, zoom, <em>fade</em> ou deslizamento).</li>
 <li><strong>Como fazer:</strong> Use a consulta de mídia <code>prefers-reduced-motion</code> no CSS para desativar ou substituir animações não essenciais quando o usuário tiver essa preferência ativada em seu sistema operacional.</li>
 <li><strong>Referência:</strong> (WCAG 2.2 - SC 2.3.3 Animação de Interações - Nível AAA, mas uma boa prática para todos)</li>
-<li>
-<p><strong>Exemplo de Código:</strong>
-    ```css
-    /<em> Define a animação padrão </em>/
-    .meu-elemento-animado {
-      transition: transform 0.4s ease;
-    }</p>
-<p>/<em> Desativa a transição se o usuário pedir </em>/
-@media (prefers-reduced-motion: reduce) {
-  .meu-elemento-animado {
-    transition: none;
-  }
-}
-```</p>
-</li>
+<li><strong>Exemplo de Código:</strong>
+    <div class="language-css highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c">/* Define a animação padrão */</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="p">.</span><span class="nc">meu-elemento-animado</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="k">transition</span><span class="p">:</span><span class="w"> </span><span class="k">transform</span><span class="w"> </span><span class="mf">0.4</span><span class="kt">s</span><span class="w"> </span><span class="kc">ease</span><span class="p">;</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">}</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="c">/* Desativa a transição se o usuário pedir */</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="p">@</span><span class="k">media</span><span class="w"> </span><span class="o">(</span><span class="nt">prefers-reduced-motion</span><span class="o">:</span><span class="w"> </span><span class="nt">reduce</span><span class="o">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span><span class="p">.</span><span class="nc">meu-elemento-animado</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">    </span><span class="k">transition</span><span class="p">:</span><span class="w"> </span><span class="kc">none</span><span class="p">;</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="p">}</span>
+</span></code></pre></div></li>
 </ul>
 </li>
 </ul>
