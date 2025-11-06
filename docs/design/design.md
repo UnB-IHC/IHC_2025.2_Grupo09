@@ -76,6 +76,7 @@ Abaixo está o guia prático, transformado de *checklist* para *guia*, explicand
     * **Por quê?** `display: none` ou `visibility: hidden` ocultam o conteúdo de *todos*, incluindo leitores de tela. Às vezes, queremos ocultar algo *apenas* visualmente, mas mantê-lo para tecnologias assistivas (ex: o rótulo "Buscar" em um botão que só tem o ícone de uma lupa).
     * **Como fazer:** Para ocultar visualmente, mas manter para leitores de tela, use uma classe CSS "sr-only" (screen-reader only) ou "visually-hidden".
     * **Exemplo de Código:**
+
         ```css
         .sr-only {
           position: absolute;
@@ -89,6 +90,7 @@ Abaixo está o guia prático, transformado de *checklist* para *guia*, explicand
           border-width: 0;
         }
         ```
+
     * **Exemplo de HTML:**
         ```html
         <button>
@@ -112,7 +114,9 @@ Esta é uma das áreas mais críticas do design acessível. O contraste adequado
 Não basta "achar" que o contraste está bom; ele deve ser medido.
 
 **Ferramenta 1: Colour Contrast Analyser (CCA)**
+
 * **O que é:** Um aplicativo gratuito (Windows/Mac) da TPGi que permite usar um conta-gotas para medir o contraste entre quaisquer dois pontos na tela.
+
 * **Passo a Passo Básico:**
     1.  Baixe e instale o aplicativo a partir do site oficial da TPGi.
     2.  Abra o CCA e o seu site ou protótipo (Figma, Sketch, etc.).
@@ -120,8 +124,12 @@ Não basta "achar" que o contraste está bom; ele deve ser medido.
     4.  Na seção "Background colour", clique no ícone de conta-gotas e selecione a cor de fundo imediatamente adjacente.
     5.  O aplicativo mostrará instantaneamente os resultados. Em "WCAG 2.1 results" (que cobre a WCAG 2.2 para contraste), verifique se há um "Pass" (Passou) nos níveis "AA" para texto normal e componentes de UI.
 
+---
+
 **Ferramenta 2: Lighthouse (No Google Chrome DevTools)**
+
 * **O que é:** Uma ferramenta de auditoria completa embutida no navegador Chrome para avaliar páginas da web.
+
 * **Passo a Passo Básico:**
     1.  Abra seu site no Google Chrome.
     2.  Pressione `F12` (ou `Cmd+Opt+I` no Mac) para abrir o "Painel do Desenvolvedor" (DevTools).

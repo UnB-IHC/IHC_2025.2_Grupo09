@@ -52,10 +52,21 @@ theme:
         name: Mudar para modo claro
 
 markdown_extensions:
+  - admonition
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: false
       clickable_checkbox: true
+  - pymdownx.highlight: 
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
 
 extra_css:
   - stylesheets/extra.css
