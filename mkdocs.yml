@@ -8,21 +8,19 @@ use_directory_urls: False
 
 nav:
   - Início: 'index.md'
-
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
   
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
+  - Design: 'design.md'
 
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
+  - Desenvolvimento Web: 'desenvolvimento.md'
+  
+  - Geração de Conteúdo: 'conteudo.md'
+
+  - Gestão de Projetos: 'projetos.md'
 
   - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
+    - Ferramentas de Acessibilidade: 'ferramentas.md'
+
+  - Referências: 'references.md'
 
 theme:
   name: material

@@ -168,29 +168,3 @@ Não basta "achar" que o contraste está bom; ele deve ser medido.
           }
         }
         ```
-
-# Referências
-
-BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. **eMAG – Modelo de Acessibilidade em Governo Eletrônico**. Brasília, DF: Governo do Brasil. Disponível em: https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital. Acesso em: 06 nov. 2025.
-
-BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. **Guia de Boas Práticas para Acessibilidade Digital**. [Autoria de: DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R.]. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf. Acesso em: 06 nov. 2025.
-
-NIELSEN, Jakob. **10 Usability Heuristics for User Interface Design**. Nielsen Norman Group, 1994. Disponível em: https://www.nngroup.com/articles/ten-usability-heuristics/. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 1.3.3: Sensory Characteristics (Level A)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 1.4.1: Use of Color (Level A)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 1.4.3: Contrast (Minimum) (Level AA)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 1.4.4: Resize text (Level AA)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 1.4.10: Reflow (Level AA)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/reflow.html. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 1.4.11: Non-text Contrast (Level AA)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 2.2.2: Pause, Stop, Hide (Level A)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 2.3.1: Three Flashes or Below Threshold (Level A)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html. Acesso em: 06 nov. 2025.
-
-WORLD WIDE WEB CONSORTIUM (W3C). **Understanding SC 2.3.3: Animation from Interactions (Level AAA)**. *In*: Understanding WCAG 2.2. [S.l.]: W3C, 2023. Disponível em: https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html. Acesso em: 06 nov. 2025.
